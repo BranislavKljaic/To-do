@@ -2,7 +2,7 @@ import React, { FC, useEffect, useState } from "react";
 import { getDocs, collection, doc, deleteDoc } from "firebase/firestore";
 import CloseIcon from "@mui/icons-material/Close";
 import db from "../firebase-config";
-import { OneTaskDiv, AllTasksDiv } from "../ItemsListUI/ItemsListUI";
+import { OneTaskDiv, AllTasksDiv } from "./ItemsListUI/ItemsListUI";
 import { IconButton } from "@mui/material";
 
 const ItemsList: FC<{
